@@ -18,7 +18,7 @@ class BrandFactory extends Factory
     {
         return [
             'name' => fake()->word(),
-            'is_feature' => fake()->boolean(),
+            'is_featured' => fake()->boolean(),
         ];
     }
 }
